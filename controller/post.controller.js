@@ -1,6 +1,6 @@
 /* eslint-disable no-underscore-dangle */
 import mongoose from 'mongoose';
-import Post from '../models/post.models';
+import Post from '../models/post.models.js';
 
 //const Post = mongoose.model('Post');
 

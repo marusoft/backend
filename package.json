@@ -5,9 +5,9 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "start": "node app",
+    "start": "node app.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend",
-    "start:dev": "nodemon --exec babel-node app"
+    "start:dev": "nodemon --exec babel-node app.js"
   },
   "repository": {
     "type": "git",

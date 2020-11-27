@@ -2,8 +2,8 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import config from '../config/config';
-import User from '../models/user.models';
+import config from '../config/config.js';
+import User from '../models/user.models.js';
 
 //const User = mongoose.model('User');
 

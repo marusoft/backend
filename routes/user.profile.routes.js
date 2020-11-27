@@ -1,7 +1,7 @@
 import express from 'express';
 
-import verifyUser from '../middlewares/token.verify';
-import userProfileController from '../controller/user-profile.controller';
+import verifyUser from '../middlewares/token.verify.js';
+import userProfileController from '../controller/user-profile.controller.js';
 
 const {
   userProfile, follow, unFollow, updatePhoto,

@@ -1,9 +1,9 @@
 /* eslint-disable no-underscore-dangle */
 import express from 'express';
 
-import verifyUser from '../middlewares/token.verify';
-import postValidation from '../middlewares/post.validate';
-import postController from '../controller/post.controller';
+import verifyUser from '../middlewares/token.verify.js';
+import postValidation from '../middlewares/post.validate.js';
+import postController from '../controller/post.controller.js';
 
 const {
   createPost, getAllPost,
