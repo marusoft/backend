@@ -1,0 +1,60 @@
+{
+  "name": "mern-stack-instagram-clone",
+  "version": "1.0.0",
+  "description": "A full-stack JavaScript Application using MongoDB, Express, React and Nodejs",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend",
+    "start:dev": "nodemon --exec babel-node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marusoft/mern-stack-instagram-clone.git"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "react",
+    "node",
+    "git"
+  ],
+  "author": "alimi kehinde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marusoft/mern-stack-instagram-clone/issues"
+  },
+  "homepage": "https://github.com/marusoft/mern-stack-instagram-clone#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@abhijithvijayan/eslint-config": "^2.5.6",
+    "@abhijithvijayan/eslint-config-airbnb": "^1.0.2",
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.2.0"
+  }
+}
