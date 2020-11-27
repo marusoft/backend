@@ -3,7 +3,7 @@ import logger from "morgan";
 import mongoose from "mongoose";
 import config from "./config/config.js";
 import "colors";
-import "./models/user.model";
+import "./models/user.models";
 import "./models/post.models";
 
 import userRouter from "./routes/user.routes";
