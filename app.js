@@ -3,12 +3,12 @@ import logger from "morgan";
 import mongoose from "mongoose";
 import config from "./config/config.js";
 import "colors";
-import "./models/user.models";
-import "./models/post.models";
+import "./models/user.models.js";
+import "./models/post.models.js";
 
-import userRouter from "./routes/user.routes";
-import postRouter from "./routes/post.routes";
-import profileRouter from "./routes/user.profile.routes";
+import userRouter from "./routes/user.routes.js";
+import postRouter from "./routes/post.routes.js";
+import profileRouter from "./routes/user.profile.routes.js";
 
 const app = express();
 const port = process.env.PORT || 4000;
